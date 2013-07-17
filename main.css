@@ -1,0 +1,278 @@
+/* 全体設定 */
+html{ height:100%;}
+body{ 
+    overflow:auto;
+    margin:0;
+    padding:0;
+    font-size:100%;
+    text-align:right;
+    background-image:url(./gakufu10.gif);
+    min-height:100%; height:auto; height:100% !important;
+}
+body > html{ height:auto;}
+
+/* 枠組み設定  */
+
+#wrap {
+    width:920px;
+    text-align:left;
+    margin:0 auto;
+    position:top;
+    text-align:right;
+    min-height:100%; height:auto ; height:100% !important;
+    background-attachment:fixed;
+}
+#wrap > body{ height:auto;}
+
+#mainbox {
+    width:720px;
+    margin:0px 0 0 180px;
+    padding:50px 0 0 20px;
+    min-height:100%; height:auto;
+    text-align:left;
+    background-image:url(./back_piano.jpg);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    overflow:hidden;
+    background-color:rgba(255,255,255,1.0);
+}
+#mainboxA{ 
+    width:350px;
+    float:left;
+    padding:0 0 0 0px;
+    height:auto;
+}
+#mainboxB{
+    width:330px;
+    float:right;
+    padding:30px 10px 0 20px;
+    height:auto;
+}
+#leftbox {
+    width:180px;
+    min-height: 100%;
+    margin:50px 0px 0px 0px; 
+    padding:0;
+    background-color:rgba(255,255,255,0.5);
+    border-right:solid 5px #191970;
+    position:left;
+    position:fixed;
+}
+#header {
+    width:920px;
+    margin: 0;
+    height:50px;
+    background-image:url(./logo.png);
+    position:fixed;
+}
+#footer {
+    position:fixed;
+    bottom:0px;
+    width:720px;
+    margin:0 10px 0 185px;
+    padding:0 0 0 10px;
+    height:20px;
+    text-align:left;
+    background-color:rgba(255,255,255,0.5);
+}
+
+/* 広告 */
+.tdftad{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}  
+
+
+/* 折り返しクリア */
+.clear{clear:both;}
+.clear hr{display:none;}
+
+/* 各種フォント設定 */
+/* タイトル文字設定 */
+h1 {
+    margin:;
+    padding:0 0 1em 0;
+}
+h2 {
+    border-bottom:1px solid #fc3;
+    margin:1em 0 1em 0;
+}
+h4 {margin:1px;}
+p {line-height:2.0em;}
+
+/* トップページ告知用 */
+.font1{
+    border-bottom:solid 2px rgba(173,216,230,0.8);
+    border-left:solid 28px rgba(173,216,230,0.8);
+    font-size:1.0em;
+    text-indent:0.8em;
+    font-family:'Meiryo';
+}
+.kokuchi{
+    padding:10px 30px;
+    background-color:rgba(255,228,181,0.8);
+    border-radius:15px;
+}
+.kokuchi2{
+    padding: 10px 30px;
+    background-color:rgba(0,0,205,0.2);
+    border-radius:15px;
+}
+.next_concert{
+    margin:0 0 0 5px;
+    padding:0px;
+    dotted #999;
+    font-size:0.8em;
+}
+.panf{
+    border: 0px;
+    margin:0px;
+    padding:0px;
+    width:200px;
+}
+
+/* 本体のデザイン */
+#mainin p {margin:10px 0;}
+.main_text {
+    margin:10px 0;
+    border:0px dotted #999;
+    font-size:0.8em;
+}
+
+/* ヘッダーのデザイン */
+.header_text {
+    margin:0px 0px;
+    padding:10px 50px;
+}
+
+/* リンクページデザイン */
+.pagelink{
+    margin: 20px 30px;
+    font-family:'Meiryo';
+    font-weight:normal;
+}
+
+/* メンバー紹介デザイン */
+.position{
+    border-bottom:solid 2px rgba(173,216,230,0.8);
+    border-left:solid 28px rgba(173,216,230,0.8);
+    margin:0px 50px 0px 10px;
+    font-size:1.2em;
+    text-indent:0.8em;
+    font-family:'Meiryo';
+}
+.essay{
+    margin:10px 70px 0px 10px;
+    padding:0 0 15px 0;
+}
+.name{
+    margin:0px 100px 0px 0px;
+    padding:10px 10px;
+    background-color:rgba(255,165,0,0.4);
+    border-radius:5px;
+}
+
+/* 活動報告のデザイン */
+.year{
+    margin:0 0 10px 20px;
+    padding: 8px 0 8px 15px;
+    border-left:solid 10px rgba(0,0,205,0.5);
+}
+ul.event{
+    list-style-type:none;
+    font-family:'Meiryo';
+}
+li.event{
+    margin:0 50px 1px 0;
+    padding: 5px 0 5px 20px;
+    background-color:rgba(211,211,211,0.8);
+    border-radius:5px;
+}
+
+
+a.link_event:link{
+    color:#000000;
+    text-decoration:none;
+}
+a.link_event:visited{
+    color:#000000;
+    text-decoration:none;
+}
+li.event:hover{
+    background-color:rgba(105,105,105,0.8);
+    text-decoration:none;
+}
+li.event:active{
+    background-color:rgba(105,105,105,0.8);
+    text-decoration:none;
+}
+
+dl.event{
+    margin: 0 0 0 40px;
+    padding:10px 0 10px 0;
+    font-family:'Meiryo';
+}
+dt.event{
+    width:500px;
+    float: left;
+    margin:0 50px 1px 0;
+    padding: 5px 0 5px 20px;
+    background-color:rgba(211,211,211,1.0);
+    border-radius:5px;
+}
+dd.event{
+    terxt-align:center;
+    margin:0 50px 1px 0;
+    padding: 5px 0 5px 0;
+    background-color:rgba(211,211,211,1.0);
+    border-radius:5px;
+}
+
+/* 各イベントページデザイン  */
+.fpic{
+    width:300px;
+}
+.pic1{
+    width: 200px;
+}
+
+
+
+/* メニューデザイン */
+.menu_not{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    margin-right:0;
+    padding:5px 10px 5px 10px;
+    background-color:rgba(211,211,211,0.8);
+    font-family:'Meiryo';
+    font-weight:normal;
+}
+.menu_select{
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    margin-right:0;
+    padding:5px 10px 5px 10px;
+    background-color:rgba(105,105,105,0.8);
+    color:#ffa500;
+    font-family:'Meiryo';
+    font-weight:normal;
+}
+a.link_menu:link{
+    color:#000000;
+    text-decoration:none;
+}
+a.link_menu:visited{
+    color:#000000;
+    text-decoration:none;
+}
+a.link_menu_select:link{
+    color:#ffffff;
+    text-decoration:none;
+}
+a.link_menu_select:visited{
+    color:#ffffff;
+    text-decoration:none;
+}
+
