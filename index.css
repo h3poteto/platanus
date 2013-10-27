@@ -1,0 +1,22 @@
+#alert_side{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 150px;
+    font-size: 0.8em;
+    padding: 15px 15px 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #bce8f1;
+    background: rgba(217, 237, 247, 0.8);
+    color: #3a87ad;
+    line-height: 1.5em;
+}
+#alert_side a:link{
+    color: #3a87ad;
+}
+#alert_side a:visited{
+    color: #3a87ad;
+}
+#alert_side .alert_notice{
+}

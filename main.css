@@ -30,7 +30,7 @@ body > html{ height:auto;}
     padding:50px 0 0 20px;
     min-height:100%; height:auto;
     text-align:left;
-    background-image:url(./back_piano.jpg);
+    background-image:url(./back_piano_1.jpg);
     background-repeat:no-repeat;
     background-position:left bottom;
     overflow:hidden;
@@ -56,14 +56,14 @@ body > html{ height:auto;}
     background-color:rgba(255,255,255,0.5);
     border-right:solid 5px #191970;
     position:left;
-    position:fixed;
+    position:absolute;
 }
 #header {
     width:920px;
     margin: 0;
     height:50px;
     background-image:url(./logo.png);
-    position:fixed;
+    position:absolute;
 }
 #footer {
     position:fixed;
