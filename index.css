@@ -21,8 +21,12 @@
 #alert_side .alert_notice{
 }
 
+.modal_link{
+    cursor: pointer;
+}
+
 #modalback{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     background: rgba(0,0,0,0.5);
@@ -32,8 +36,8 @@
 }
 #modalwindow{
     position: relative;
-    margin: 30px auto;
-    width: 450px !important;
+    margin: 130px auto;
+    width: 700px !important;
     height: auto;
     z-index: 2;
 }
